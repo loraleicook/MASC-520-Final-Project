@@ -1,12 +1,12 @@
 # MASC 520 Final Project: Using Deep Neural Networks to Predict Material Hardness
 
 **Authors:** Jingchen Wu, Loralei Cook, and Carolina Quinonez
-**Course:** MASC 520
+
 **Repository:** https://github.com/loraleicook/MASC-520-Final-Project
 
 ## Overview
 
-This project predicts the **hardness** of a material from **scanning electron microscope (SEM) images** of its microstructure. It compares two simple baseline models built on hand-crafted image features against a **convolutional neural network (CNN)** that learns its own features from image patches.
+This project predicts the hardness of a material from scanning electron microscope (SEM) images of its microstructure. It compares two simple baseline models built on hand-crafted image features against a convolutional neural network (CNN) that learns its own features from image patches.
 
 | Model | Input | Idea |
 |---|---|---|
@@ -63,17 +63,14 @@ A GPU is optional. The notebook detects one automatically and uses larger patche
 The notebook expects:
 
 1. **`labels.csv`** with one row per image. The required columns are:
-   - `filename`: the image file name (with or without extension)
-   - `hardness`: the measured hardness (numeric target)
+   - `filename`: the image file name 
+   - `hardness`: the measured hardness 
 2. **Optional columns:**
    - `magnification`: e.g. `60` or `500x`. If missing, it is parsed from the filename (e.g. `sample3_500x.png`).
    - `split`: values containing `test`, `hold` or `val` mark test images, and everything else is training data.
    - `sample_id`: identifies which physical sample an image came from. Used for grouped cross-validation so images from the same sample never appear in both the training and validation folds.
 3. **Images** as individual files or inside a `.zip` (`.png`, `.jpg`, `.jpeg`, `.tif`, `.tiff`, `.bmp`).
 
-If the column names differ, the notebook tries to match them by keyword. You can also set `COLUMN_MAP` manually in the configuration cell.
-
-If no split information is provided, the notebook warns you and holds out 8 random images as the test set. Set `TEST_FILENAMES` to use a specific test set.
 
 ## How to Run
 
@@ -81,7 +78,7 @@ If no split information is provided, the notebook warns you and holds out 8 rand
 
 1. Open `MASC_520_Final_Project.ipynb` in Colab.
 2. Run the first (configuration) cell.
-3. Run the data preparation cell and upload `labels.csv` and your images (or a zip) when prompted. To load from Google Drive instead, set `USE_DRIVE = True` and update `DRIVE_CSV` and `DRIVE_ZIP`.
+3. Run the data preparation cell and upload `labels.csv` and the images in a zip file when prompted. To load from Google Drive instead, set `USE_DRIVE = True` and update `DRIVE_CSV` and `DRIVE_ZIP`.
 4. Run the remaining cells in order.
 
 ### Locally
