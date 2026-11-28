@@ -1,0 +1,108 @@
+{
+  "client_date": "2026-11-26",
+  "input_file": "data/MASC_520_Person3_Features.csv",
+  "input_sha256": "3b9c36b606e2049c2451763b522a228a8102bc06fd25eadfbc0cce06cbb91cad",
+  "training_protocol_sha256": "a0f5555675e4f0cb205ee58bf5da8ad4afd0f5146ed7ca1e32ab65192762073d",
+  "features": [
+    "gray_mean",
+    "gray_std",
+    "gray_p05",
+    "gray_p95",
+    "glcm_contrast",
+    "glcm_homogeneity",
+    "glcm_energy",
+    "glcm_correlation",
+    "lbp_0",
+    "lbp_1",
+    "lbp_2",
+    "lbp_3",
+    "lbp_4",
+    "lbp_5",
+    "lbp_6",
+    "lbp_7",
+    "lbp_8",
+    "lbp_9",
+    "edge_density",
+    "laplacian_variance"
+  ],
+  "predictors": [
+    "gray_mean",
+    "gray_std",
+    "gray_p05",
+    "gray_p95",
+    "glcm_contrast",
+    "glcm_homogeneity",
+    "glcm_energy",
+    "glcm_correlation",
+    "lbp_0",
+    "lbp_1",
+    "lbp_2",
+    "lbp_3",
+    "lbp_4",
+    "lbp_5",
+    "lbp_6",
+    "lbp_7",
+    "lbp_8",
+    "lbp_9",
+    "edge_density",
+    "laplacian_variance",
+    "magnification"
+  ],
+  "group_column": "condition_group",
+  "group_definition": "source study + material + treatment + cycles; proxy, not verified physical specimen ID",
+  "train_images": 76,
+  "test_images": 8,
+  "train_condition_groups": 28,
+  "outer_folds": 5,
+  "inner_folds": 3,
+  "rf_search_candidates": 6,
+  "seed": 42,
+  "parameter_scoring": "negative MAE on inner training folds",
+  "model_family_selection": "minimum image-weighted outer grouped-CV MAE among the 6 prespecified methods",
+  "primary_cv_metrics_weighting": "one contribution per training image; condition-balanced MAE reported separately",
+  "test_usage": "fixed 8-image cross-study challenge, previously viewed; all pre-specified methods reported, no test-driven parameter changes",
+  "new_CNN_training": false,
+  "image_features_recomputed_here": false,
+  "feature_recipe": [
+    "original20_gray_half_area256_crop0_v1"
+  ],
+  "feature_environment": {
+    "opencv_version": [
+      "5.0.0"
+    ],
+    "skimage_version": [
+      "0.25.2"
+    ],
+    "numpy_version": [
+      "2.4.6"
+    ]
+  },
+  "training_environment": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "sklearn": "1.8.0"
+  },
+  "image_source_hashes_independently_checked_against_raw_images_here": false,
+  "selected_by_training_cv": "RF baseline",
+  "final_best_parameters": {
+    "Training mean": {},
+    "Linear regression": {},
+    "Ridge fixed": {},
+    "RF baseline": {},
+    "Ridge tuned": {
+      "model__alpha": 26.366508987303554
+    },
+    "RF tuned": {
+      "model__n_estimators": 400,
+      "model__min_samples_leaf": 2,
+      "model__max_features": 1.0,
+      "model__max_depth": 6
+    }
+  },
+  "elapsed_seconds": 13.579394102096558,
+  "completed_new_baseline_training": true,
+  "completed_new_nested_condition_group_cv": true,
+  "documentation_revision_date": "2026-11-27",
+  "documentation_revision_scope": "Portable GitHub packaging and post-hoc diagnostics. Original training code, model selection and predictions unchanged."
+}

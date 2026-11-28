@@ -1,0 +1,57 @@
+model,filename,material,magnification,measured,predicted,residual,absolute_error,squared_error
+Training mean,esd_pla_250x.jpg,ESD-PLA (polylactic acid + carbon black),250,69.54,76.09473684210528,6.554736842105271,6.554736842105271,42.96457506925218
+Training mean,esd_abs_250x.jpg,"ESD-ABS (acrylonitrile butadiene styrene + carbon nanotubes, inferred)",250,70.02,76.09473684210528,6.074736842105281,6.074736842105281,36.90242770083125
+Training mean,esd_tpu_250x.jpg,ESD-TPU (thermoplastic polyurethane + carbon black),250,35.26,76.09473684210528,40.83473684210528,40.83473684210528,1667.4757329639901
+Training mean,esd_onyx_250x.jpg,ESD-Onyx (polyamide + chopped carbon microfibers),250,74.86,76.09473684210528,1.2347368421052778,1.2347368421052778,1.5245750692521136
+Training mean,esd_pla_1000x.jpg,ESD-PLA (polylactic acid + carbon black),1000,69.54,76.09473684210528,6.554736842105271,6.554736842105271,42.96457506925218
+Training mean,esd_abs_1000x.jpg,"ESD-ABS (acrylonitrile butadiene styrene + carbon nanotubes, inferred)",1000,70.02,76.09473684210528,6.074736842105281,6.074736842105281,36.90242770083125
+Training mean,esd_tpu_1000x.jpg,ESD-TPU (thermoplastic polyurethane + carbon black),1000,35.26,76.09473684210528,40.83473684210528,40.83473684210528,1667.4757329639901
+Training mean,esd_onyx_1000x.jpg,ESD-Onyx (polyamide + chopped carbon microfibers),1000,74.86,76.09473684210528,1.2347368421052778,1.2347368421052778,1.5245750692521136
+Linear regression,esd_pla_250x.jpg,ESD-PLA (polylactic acid + carbon black),250,69.54,79.96707146802092,10.427071468020912,10.427071468020912,108.72381939921578
+Linear regression,esd_abs_250x.jpg,"ESD-ABS (acrylonitrile butadiene styrene + carbon nanotubes, inferred)",250,70.02,76.51229039580667,6.492290395806677,6.492290395806677,42.14983458348362
+Linear regression,esd_tpu_250x.jpg,ESD-TPU (thermoplastic polyurethane + carbon black),250,35.26,73.77430221881824,38.51430221881824,38.51430221881824,1483.3514754024675
+Linear regression,esd_onyx_250x.jpg,ESD-Onyx (polyamide + chopped carbon microfibers),250,74.86,72.05431443733269,-2.805685562667307,2.805685562667307,7.871871476559763
+Linear regression,esd_pla_1000x.jpg,ESD-PLA (polylactic acid + carbon black),1000,69.54,81.54854641390139,12.008546413901385,12.008546413901385,144.20518697482382
+Linear regression,esd_abs_1000x.jpg,"ESD-ABS (acrylonitrile butadiene styrene + carbon nanotubes, inferred)",1000,70.02,80.12144712685713,10.101447126857138,10.101447126857138,102.03923405669033
+Linear regression,esd_tpu_1000x.jpg,ESD-TPU (thermoplastic polyurethane + carbon black),1000,35.26,72.16876029410506,36.90876029410506,36.90876029410506,1362.256586447706
+Linear regression,esd_onyx_1000x.jpg,ESD-Onyx (polyamide + chopped carbon microfibers),1000,74.86,71.51035047835776,-3.3496495216422346,3.3496495216422346,11.22015191783805
+Ridge fixed,esd_pla_250x.jpg,ESD-PLA (polylactic acid + carbon black),250,69.54,78.16744540236395,8.627445402363946,8.627445402363946,74.4328141707708
+Ridge fixed,esd_abs_250x.jpg,"ESD-ABS (acrylonitrile butadiene styrene + carbon nanotubes, inferred)",250,70.02,73.038014830132,3.018014830132003,3.018014830132003,9.108413514896704
+Ridge fixed,esd_tpu_250x.jpg,ESD-TPU (thermoplastic polyurethane + carbon black),250,35.26,73.38283165823643,38.12283165823643,38.12283165823643,1453.3502936422337
+Ridge fixed,esd_onyx_250x.jpg,ESD-Onyx (polyamide + chopped carbon microfibers),250,74.86,73.39146897418854,-1.4685310258114583,1.4685310258114583,2.156583373770854
+Ridge fixed,esd_pla_1000x.jpg,ESD-PLA (polylactic acid + carbon black),1000,69.54,82.04476749130616,12.504767491306154,12.504767491306154,156.36921001162722
+Ridge fixed,esd_abs_1000x.jpg,"ESD-ABS (acrylonitrile butadiene styrene + carbon nanotubes, inferred)",1000,70.02,80.44011485288166,10.420114852881667,10.420114852881667,108.57879354724513
+Ridge fixed,esd_tpu_1000x.jpg,ESD-TPU (thermoplastic polyurethane + carbon black),1000,35.26,75.14591752507614,39.885917525076145,39.885917525076145,1590.8864168171763
+Ridge fixed,esd_onyx_1000x.jpg,ESD-Onyx (polyamide + chopped carbon microfibers),1000,74.86,73.50817417770678,-1.3518258222932218,1.3518258222932218,1.8274330538187453
+RF baseline,esd_pla_250x.jpg,ESD-PLA (polylactic acid + carbon black),250,69.54,76.49397202380955,6.953972023809541,6.953972023809541,48.357726907925766
+RF baseline,esd_abs_250x.jpg,"ESD-ABS (acrylonitrile butadiene styrene + carbon nanotubes, inferred)",250,70.02,75.84863674603183,5.828636746031833,5.828636746031833,33.97300631719256
+RF baseline,esd_tpu_250x.jpg,ESD-TPU (thermoplastic polyurethane + carbon black),250,35.26,75.59414500000001,40.334145000000014,40.334145000000014,1626.843252881026
+RF baseline,esd_onyx_250x.jpg,ESD-Onyx (polyamide + chopped carbon microfibers),250,74.86,73.17111615079361,-1.6888838492063911,1.6888838492063911,2.852328656110196
+RF baseline,esd_pla_1000x.jpg,ESD-PLA (polylactic acid + carbon black),1000,69.54,76.5347216666667,6.994721666666692,6.994721666666692,48.92613119413646
+RF baseline,esd_abs_1000x.jpg,"ESD-ABS (acrylonitrile butadiene styrene + carbon nanotubes, inferred)",1000,70.02,77.07278071428571,7.052780714285717,7.052780714285717,49.74171580380055
+RF baseline,esd_tpu_1000x.jpg,ESD-TPU (thermoplastic polyurethane + carbon black),1000,35.26,77.73616047619049,42.47616047619049,42.47616047619049,1804.2242087990874
+RF baseline,esd_onyx_1000x.jpg,ESD-Onyx (polyamide + chopped carbon microfibers),1000,74.86,75.1142907142857,0.2542907142857018,0.2542907142857018,0.06466376737193244
+Ridge tuned,esd_pla_250x.jpg,ESD-PLA (polylactic acid + carbon black),250,69.54,78.07958732065013,8.539587320650128,8.539587320650128,72.92455160700842
+Ridge tuned,esd_abs_250x.jpg,"ESD-ABS (acrylonitrile butadiene styrene + carbon nanotubes, inferred)",250,70.02,73.74824744206404,3.7282474420640455,3.7282474420640455,13.899828989257099
+Ridge tuned,esd_tpu_250x.jpg,ESD-TPU (thermoplastic polyurethane + carbon black),250,35.26,74.37281187606844,39.11281187606844,39.11281187606844,1529.8120528527206
+Ridge tuned,esd_onyx_250x.jpg,ESD-Onyx (polyamide + chopped carbon microfibers),250,74.86,73.91478196000186,-0.9452180399981387,0.9452180399981387,0.8934371431379229
+Ridge tuned,esd_pla_1000x.jpg,ESD-PLA (polylactic acid + carbon black),1000,69.54,81.15762543781965,11.61762543781964,11.61762543781964,134.96922081347398
+Ridge tuned,esd_abs_1000x.jpg,"ESD-ABS (acrylonitrile butadiene styrene + carbon nanotubes, inferred)",1000,70.02,79.78807115129906,9.768071151299068,9.768071151299068,95.4152140168411
+Ridge tuned,esd_tpu_1000x.jpg,ESD-TPU (thermoplastic polyurethane + carbon black),1000,35.26,76.20910970828415,40.94910970828415,40.94910970828415,1676.8295859010911
+Ridge tuned,esd_onyx_1000x.jpg,ESD-Onyx (polyamide + chopped carbon microfibers),1000,74.86,74.44904034468824,-0.41095965531175693,0.41095965531175693,0.16888783829395806
+RF tuned,esd_pla_250x.jpg,ESD-PLA (polylactic acid + carbon black),250,69.54,76.60164815748129,7.061648157481287,7.061648157481287,49.86687470005885
+RF tuned,esd_abs_250x.jpg,"ESD-ABS (acrylonitrile butadiene styrene + carbon nanotubes, inferred)",250,70.02,75.98345191121075,5.963451911210754,5.963451911210754,35.5627586973232
+RF tuned,esd_tpu_250x.jpg,ESD-TPU (thermoplastic polyurethane + carbon black),250,35.26,75.82498737653127,40.56498737653127,40.56498737653127,1645.5182008581414
+RF tuned,esd_onyx_250x.jpg,ESD-Onyx (polyamide + chopped carbon microfibers),250,74.86,73.45370490028174,-1.406295099718264,1.406295099718264,1.9776659074916019
+RF tuned,esd_pla_1000x.jpg,ESD-PLA (polylactic acid + carbon black),1000,69.54,76.71564495735946,7.175644957359452,7.175644957359452,51.489880554078134
+RF tuned,esd_abs_1000x.jpg,"ESD-ABS (acrylonitrile butadiene styrene + carbon nanotubes, inferred)",1000,70.02,77.40591073357818,7.385910733578186,7.385910733578186,54.551677364385455
+RF tuned,esd_tpu_1000x.jpg,ESD-TPU (thermoplastic polyurethane + carbon black),1000,35.26,77.70709365284094,42.44709365284094,42.44709365284094,1801.7557595730498
+RF tuned,esd_onyx_1000x.jpg,ESD-Onyx (polyamide + chopped carbon microfibers),1000,74.86,75.03031803916946,0.17031803916945876,0.17031803916945876,0.029008234466529288
+CNN historical,esd_pla_250x.jpg,ESD-PLA (polylactic acid + carbon black),250,69.54,77.615,8.074999999999989,8.074999999999989,65.20562499999981
+CNN historical,esd_abs_250x.jpg,"ESD-ABS (acrylonitrile butadiene styrene + carbon nanotubes, inferred)",250,70.02,76.412,6.39200000000001,6.39200000000001,40.85766400000013
+CNN historical,esd_tpu_250x.jpg,ESD-TPU (thermoplastic polyurethane + carbon black),250,35.26,75.081,39.821000000000005,39.821000000000005,1585.7120410000005
+CNN historical,esd_onyx_250x.jpg,ESD-Onyx (polyamide + chopped carbon microfibers),250,74.86,75.192,0.33199999999999363,0.33199999999999363,0.11022399999999577
+CNN historical,esd_pla_1000x.jpg,ESD-PLA (polylactic acid + carbon black),1000,69.54,78.218,8.677999999999997,8.677999999999997,75.30768399999995
+CNN historical,esd_abs_1000x.jpg,"ESD-ABS (acrylonitrile butadiene styrene + carbon nanotubes, inferred)",1000,70.02,76.612,6.591999999999999,6.591999999999999,43.45446399999998
+CNN historical,esd_tpu_1000x.jpg,ESD-TPU (thermoplastic polyurethane + carbon black),1000,35.26,74.415,39.15500000000001,39.15500000000001,1533.1140250000005
+CNN historical,esd_onyx_1000x.jpg,ESD-Onyx (polyamide + chopped carbon microfibers),1000,74.86,74.531,-0.3289999999999935,0.3289999999999935,0.10824099999999573

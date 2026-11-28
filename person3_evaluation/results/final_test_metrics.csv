@@ -1,0 +1,8 @@
+model,MAE,RMSE,R2,protocol,selected_by_training_cv
+Training mean,13.674736842105277,20.90973045500184,-0.7473408338508736,New controlled baseline experiment,False
+Linear regression,15.075969125227369,20.19225767546433,-0.6294855615428285,New controlled baseline experiment,False
+Ridge fixed,14.42493107601263,20.6055513094516,-0.6968725911701237,New controlled baseline experiment,False
+RF baseline,13.947948898809548,21.257301787640674,-0.8059138708057894,New controlled baseline experiment,True
+Ridge tuned,14.38395382893692,20.990809831810395,-0.7609180515710594,New controlled baseline experiment,False
+RF tuned,14.021918740986202,21.33293177779661,-0.8187870206032983,New controlled baseline experiment,False
+CNN historical,13.67175,20.44465079183306,-0.6704756564665113,Saved historical CNN predictions (3 d.p.); not retrained,False

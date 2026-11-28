@@ -1,0 +1,130 @@
+{
+  "scope": "Post-hoc diagnostics of the existing fixed test predictions. No model fitting or parameter selection.",
+  "train_images": 76,
+  "test_images": 8,
+  "train_condition_proxy_groups": 28,
+  "test_material_conditions": 4,
+  "train_hardness_range_Shore_D": [
+    67.32,
+    80.76
+  ],
+  "test_hardness_range_Shore_D": [
+    35.26,
+    74.86
+  ],
+  "test_hardness_mean_Shore_D": 62.42,
+  "R2_reference": "Mean of the evaluated test targets, distinct from the training-mean predictor.",
+  "test_total_sum_of_squares": 2001.7472,
+  "selected_by_training_cv_MAE": "RF baseline",
+  "ridge_CV_MAE_reduction_percent": 6.91164975328736,
+  "rf_CV_MAE_increase_percent": 2.8226999450588655,
+  "current_standard_random_forest_bound": {
+    "assumption": "Direct-target RandomForestRegressor with ordinary nonnegative leaf-mean and tree-mean averaging, as used in this experiment.",
+    "smallest_possible_squared_error_sum_if_other_predictions_ideal": 2055.6871999999994,
+    "test_R2_upper_bound": -0.026946459572916748,
+    "interpretation": "An optimistic mathematical ceiling for this RF setup, not an achieved score and not a bound for Ridge or CNN."
+  },
+  "magnification_encoding": {
+    "training_categories": [
+      60,
+      500
+    ],
+    "unseen_test_categories": [
+      250,
+      1000
+    ],
+    "method": "Training-fitted OneHotEncoder(handle_unknown='ignore').",
+    "test_encoding_shape": [
+      8,
+      2
+    ],
+    "all_test_magnification_codes_zero": true,
+    "interpretation": "Both unseen magnifications have the same magnification code. Their separate effect on prediction error was not isolated."
+  },
+  "per_model": [
+    {
+      "model": "Training mean",
+      "MAE": 13.674736842105277,
+      "RMSE": 20.90973045500184,
+      "R2": -0.7473408338508736,
+      "squared_error_sum": 3497.734621606651,
+      "TPU_squared_error_sum": 3334.9514659279803,
+      "TPU_squared_error_share_percent": 95.3460404150416,
+      "TPU_MAE": 40.83473684210528,
+      "other_six_images_MAE": 4.621403508771944
+    },
+    {
+      "model": "Linear regression",
+      "MAE": 15.075969125227369,
+      "RMSE": 20.19225767546433,
+      "R2": -0.6294855615428285,
+      "squared_error_sum": 3261.8181602587847,
+      "TPU_squared_error_sum": 2845.6080618501737,
+      "TPU_squared_error_share_percent": 87.23993558317827,
+      "TPU_MAE": 37.71153125646165,
+      "other_six_images_MAE": 7.530781748149276
+    },
+    {
+      "model": "Ridge fixed",
+      "MAE": 14.42493107601263,
+      "RMSE": 20.6055513094516,
+      "R2": -0.6968725911701237,
+      "squared_error_sum": 3396.7099581315397,
+      "TPU_squared_error_sum": 3044.23671045941,
+      "TPU_squared_error_share_percent": 89.6230984683185,
+      "TPU_MAE": 39.00437459165629,
+      "other_six_images_MAE": 6.231783237464742
+    },
+    {
+      "model": "RF baseline",
+      "MAE": 13.947948898809548,
+      "RMSE": 21.257301787640674,
+      "R2": -0.8059138708057894,
+      "squared_error_sum": 3614.983034326651,
+      "TPU_squared_error_sum": 3431.0674616801134,
+      "TPU_squared_error_share_percent": 94.91240841519482,
+      "TPU_MAE": 41.40515273809525,
+      "other_six_images_MAE": 4.795547619047646
+    },
+    {
+      "model": "Ridge tuned",
+      "MAE": 14.38395382893692,
+      "RMSE": 20.990809831810395,
+      "R2": -0.7609180515710594,
+      "squared_error_sum": 3524.912779161824,
+      "TPU_squared_error_sum": 3206.641638753812,
+      "TPU_squared_error_share_percent": 90.9708080639745,
+      "TPU_MAE": 40.030960792176295,
+      "other_six_images_MAE": 5.83495150785713
+    },
+    {
+      "model": "RF tuned",
+      "MAE": 14.021918740986202,
+      "RMSE": 21.33293177779661,
+      "R2": -0.8187870206032983,
+      "squared_error_sum": 3640.751825888995,
+      "TPU_squared_error_sum": 3447.273960431191,
+      "TPU_squared_error_share_percent": 94.6857716562276,
+      "TPU_MAE": 41.506040514686106,
+      "other_six_images_MAE": 4.860544816419567
+    },
+    {
+      "model": "CNN historical",
+      "MAE": 13.67175,
+      "RMSE": 20.44465079183306,
+      "R2": -0.6704756564665113,
+      "squared_error_sum": 3343.869968000001,
+      "TPU_squared_error_sum": 3118.826066000001,
+      "TPU_squared_error_share_percent": 93.26995654275993,
+      "TPU_MAE": 39.48800000000001,
+      "other_six_images_MAE": 5.06633333333333
+    }
+  ],
+  "limitations": [
+    "Condition groups are proxies, not verified physical specimen IDs.",
+    "The fixed eight-image test set was previously evaluated and is not a new blind test.",
+    "CNN predictions are historical values rounded to three decimals, with a different original preprocessing protocol and no new CNN training.",
+    "TPU error contribution is descriptive and does not establish the unique cause of poor generalization.",
+    "Raw image-to-label pairing, units and supplied image hashes were not independently revalidated against all original source images in this cached-feature run."
+  ]
+}

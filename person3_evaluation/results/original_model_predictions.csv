@@ -1,0 +1,9 @@
+filename,hardness,Ridge original,RF original,CNN historical
+esd_pla_250x.jpg,69.54,78.392,76.808,77.615
+esd_abs_250x.jpg,70.02,73.529,75.686,76.412
+esd_tpu_250x.jpg,35.26,73.884,75.739,75.081
+esd_onyx_250x.jpg,74.86,73.805,73.137,75.192
+esd_pla_1000x.jpg,69.54,81.481,76.652,78.218
+esd_abs_1000x.jpg,70.02,79.76,77.168,76.612
+esd_tpu_1000x.jpg,35.26,75.756,77.753,74.415
+esd_onyx_1000x.jpg,74.86,73.962,75.109,74.531

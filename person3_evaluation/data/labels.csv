@@ -1,0 +1,85 @@
+filename,hardness,magnification,split,material,treatment,treatment_cycles,sem_region,hardness_method,hardness_sd,source_study,condition_group
+Dental SumaTabD4 20cycles 60x Surface.png,80.26,60,train,Dental,Suma Tab D4,20,Surface,Shore D (durometer),0.3435,Told et al. (2022),Told et al. (2022) | Dental | Suma Tab D4 | 20
+Dental Native 60x Surface.png,79.8,60,train,Dental,Untreated,0,Surface,Shore D (durometer),0.23,Told et al. (2022),Told et al. (2022) | Dental | Untreated | 0
+Dental H2O2 20cycles 60x Surface.png,79.7,60,train,Dental,H2O2,20,Surface,Shore D (durometer),0.7969,Told et al. (2022),Told et al. (2022) | Dental | H2O2 | 20
+Dental Ethanol 20cycles 60x Surface.png,80.76,60,train,Dental,70% Ethanol,20,Surface,Shore D (durometer),0.9476,Told et al. (2022),Told et al. (2022) | Dental | 70% Ethanol | 20
+Dental DryHeat 20cycles 60x Surface.png,80.24,60,train,Dental,Dry heat,20,Surface,Shore D (durometer),0.4669,Told et al. (2022),Told et al. (2022) | Dental | Dry heat | 20
+Dental Autoclave 20cycles 60x Surface.png,80.04,60,train,Dental,Autoclave,20,Surface,Shore D (durometer),0.5459,Told et al. (2022),Told et al. (2022) | Dental | Autoclave | 20
+Dental SumaTabD4 20cycles 60x Fracture.png,80.26,60,train,Dental,Suma Tab D4,20,Fracture,Shore D (durometer),0.3435,Told et al. (2022),Told et al. (2022) | Dental | Suma Tab D4 | 20
+Dental Native 60x Fracture.png,79.8,60,train,Dental,Untreated,0,Fracture,Shore D (durometer),0.23,Told et al. (2022),Told et al. (2022) | Dental | Untreated | 0
+Dental H2O2 20cycyles 60x Fracture.png,79.7,60,train,Dental,H2O2,20,Fracture,Shore D (durometer),0.7969,Told et al. (2022),Told et al. (2022) | Dental | H2O2 | 20
+Dental Ethanol 20cycles 60x Fracture.png,80.76,60,train,Dental,70% Ethanol,20,Fracture,Shore D (durometer),0.9476,Told et al. (2022),Told et al. (2022) | Dental | 70% Ethanol | 20
+Dental DryHeat 20cycles 60x Fracture.png,80.24,60,train,Dental,Dry heat,20,Fracture,Shore D (durometer),0.4669,Told et al. (2022),Told et al. (2022) | Dental | Dry heat | 20
+Dental Autoclave 20cycles 60x Fracture.png,80.04,60,train,Dental,Autoclave,20,Fracture,Shore D (durometer),0.5459,Told et al. (2022),Told et al. (2022) | Dental | Autoclave | 20
+White SumaTabD4 20cycles 60x Surface.png,76.54,60,train,White resin,Suma Tab D4,20,Surface,Shore D (durometer),0.695,Told et al. (2022),Told et al. (2022) | White resin | Suma Tab D4 | 20
+White Native 60x Surface.png,77.2,60,train,White resin,Untreated,0,Surface,Shore D (durometer),3.29,Told et al. (2022),Told et al. (2022) | White resin | Untreated | 0
+White H2O2 20cycles 60x Surface.png,78.26,60,train,White resin,H2O2,20,Surface,Shore D (durometer),0.3507,Told et al. (2022),Told et al. (2022) | White resin | H2O2 | 20
+White Ethanol 20cycles 60x Surface.png,76.76,60,train,White resin,70% Ethanol,20,Surface,Shore D (durometer),0.5505,Told et al. (2022),Told et al. (2022) | White resin | 70% Ethanol | 20
+White DryHeat 20cycles 60x Surface.png,78.94,60,train,White resin,Dry heat,20,Surface,Shore D (durometer),0.882,Told et al. (2022),Told et al. (2022) | White resin | Dry heat | 20
+White Autoclave 20cycles 60x Surface.png,78.46,60,train,White resin,Autoclave,20,Surface,Shore D (durometer),0.2408,Told et al. (2022),Told et al. (2022) | White resin | Autoclave | 20
+White SumaTabD4 20cycles 60x Fracture.png,76.54,60,train,White resin,Suma Tab D4,20,Fracture,Shore D (durometer),0.695,Told et al. (2022),Told et al. (2022) | White resin | Suma Tab D4 | 20
+White Native 60x Fracture.png,77.2,60,train,White resin,Untreated,0,Fracture,Shore D (durometer),3.29,Told et al. (2022),Told et al. (2022) | White resin | Untreated | 0
+White H2O2 20cycles 60x Fracture.png,78.26,60,train,White resin,H2O2,20,Fracture,Shore D (durometer),0.3507,Told et al. (2022),Told et al. (2022) | White resin | H2O2 | 20
+White Ethanol 20cycles 60x Fracture.png,76.76,60,train,White resin,70% Ethanol,20,Fracture,Shore D (durometer),0.5505,Told et al. (2022),Told et al. (2022) | White resin | 70% Ethanol | 20
+White DryHeat 20cycles 60x Fracture.png,78.94,60,train,White resin,Dry heat,20,Fracture,Shore D (durometer),0.882,Told et al. (2022),Told et al. (2022) | White resin | Dry heat | 20
+White Autoclave 20cycles 60x Fracture.png,78.46,60,train,White resin,Autoclave,20,Fracture,Shore D (durometer),0.2408,Told et al. (2022),Told et al. (2022) | White resin | Autoclave | 20
+PLA SumaTabD4 20cycles 60x Surface.png,77.02,60,train,PLA,Suma Tab D4,20,Surface,Shore D (durometer),0.72,Told et al. (2022),Told et al. (2022) | PLA | Suma Tab D4 | 20
+PLA native 60x Surface.png,79.0,60,train,PLA,Untreated,0,Surface,Shore D (durometer),0.32,Told et al. (2022),Told et al. (2022) | PLA | Untreated | 0
+PLA H2O2 20cycles 60x Surface.png,80.12,60,train,PLA,H2O2,20,Surface,Shore D (durometer),0.59,Told et al. (2022),Told et al. (2022) | PLA | H2O2 | 20
+PLA Ethanol 20cycles 60x Surface.png,78.74,60,train,PLA,70% Ethanol,20,Surface,Shore D (durometer),0.71,Told et al. (2022),Told et al. (2022) | PLA | 70% Ethanol | 20
+PLA SumaTabD4 20cycles 60x Fracture.png,77.02,60,train,PLA,Suma Tab D4,20,Fracture,Shore D (durometer),0.72,Told et al. (2022),Told et al. (2022) | PLA | Suma Tab D4 | 20
+PLA native 60x Fracture.png,79.0,60,train,PLA,Untreated,0,Fracture,Shore D (durometer),0.32,Told et al. (2022),Told et al. (2022) | PLA | Untreated | 0
+PLA H2O2 20cycles 60x Fracture.png,80.12,60,train,PLA,H2O2,20,Fracture,Shore D (durometer),0.59,Told et al. (2022),Told et al. (2022) | PLA | H2O2 | 20
+PLA Ethanol 20cycles 60x Fracture.png,78.74,60,train,PLA,70% Ethanol,20,Fracture,Shore D (durometer),0.71,Told et al. (2022),Told et al. (2022) | PLA | 70% Ethanol | 20
+PETG SumaTabD4 10cycles 60x Surface.png,67.32,60,train,PETG,Suma Tab D4,10,Surface,Shore D (durometer),1.09,Told et al. (2022),Told et al. (2022) | PETG | Suma Tab D4 | 10
+PETG H2O2 10cycles 60x Surface.png,68.08,60,train,PETG,H2O2,10,Surface,Shore D (durometer),0.92,Told et al. (2022),Told et al. (2022) | PETG | H2O2 | 10
+PETG Ethanol 20cycles 60x Surface.png,68.48,60,train,PETG,70% Ethanol,20,Surface,Shore D (durometer),0.82,Told et al. (2022),Told et al. (2022) | PETG | 70% Ethanol | 20
+PETG SumaTabD4 10cycles 60x Fracture.png,67.32,60,train,PETG,Suma Tab D4,10,Fracture,Shore D (durometer),1.09,Told et al. (2022),Told et al. (2022) | PETG | Suma Tab D4 | 10
+PETG H2O2 10cycles 60x Fracture.png,68.08,60,train,PETG,H2O2,10,Fracture,Shore D (durometer),0.92,Told et al. (2022),Told et al. (2022) | PETG | H2O2 | 10
+PETG Ethanol 20cycles 60x Fracture.png,68.48,60,train,PETG,70% Ethanol,20,Fracture,Shore D (durometer),0.82,Told et al. (2022),Told et al. (2022) | PETG | 70% Ethanol | 20
+PA2200 Sum 20cikl 60x Surface.png,74.5,60,train,PA2200,Suma Tab D4,20,Surface,Shore D (durometer),0.14,Told et al. (2022),Told et al. (2022) | PA2200 | Suma Tab D4 | 20
+PA2200 Native 60x Surface.png,74.6,60,train,PA2200,Untreated,0,Surface,Shore D (durometer),1.39,Told et al. (2022),Told et al. (2022) | PA2200 | Untreated | 0
+PA2200 H2O2 20cycles 60x Surface.png,74.6,60,train,PA2200,H2O2,20,Surface,Shore D (durometer),0.51,Told et al. (2022),Told et al. (2022) | PA2200 | H2O2 | 20
+PA2200 Ethanol 20cycles 60x Surface.png,74.6,60,train,PA2200,70% Ethanol,20,Surface,Shore D (durometer),0.53,Told et al. (2022),Told et al. (2022) | PA2200 | 70% Ethanol | 20
+PA2200 DryHeat 20cycles 60x Surface.png,74.7,60,train,PA2200,Dry heat,20,Surface,Shore D (durometer),0.77,Told et al. (2022),Told et al. (2022) | PA2200 | Dry heat | 20
+PA2200 Autoklave 20cycles 60x Surface (1).png,75.2,60,train,PA2200,Autoclave,20,Surface,Shore D (durometer),0.18,Told et al. (2022),Told et al. (2022) | PA2200 | Autoclave | 20
+PA2200 Native 60x 2 Fracture.png,74.6,60,train,PA2200,Untreated,0,Fracture,Shore D (durometer),1.39,Told et al. (2022),Told et al. (2022) | PA2200 | Untreated | 0
+PA2200 H2O2 20cycles 60x Fracture.png,74.6,60,train,PA2200,H2O2,20,Fracture,Shore D (durometer),0.51,Told et al. (2022),Told et al. (2022) | PA2200 | H2O2 | 20
+PA2200 Ethanol 20cycles 60x Fracture.png,74.6,60,train,PA2200,70% Ethanol,20,Fracture,Shore D (durometer),0.53,Told et al. (2022),Told et al. (2022) | PA2200 | 70% Ethanol | 20
+PA2200 DryHeat 20ccycles 60x Fracture.png,74.7,60,train,PA2200,Dry heat,20,Fracture,Shore D (durometer),0.77,Told et al. (2022),Told et al. (2022) | PA2200 | Dry heat | 20
+PA2200 Autoclave 20cycles 60x Fracture.png,75.2,60,train,PA2200,Autoclave,20,Fracture,Shore D (durometer),0.18,Told et al. (2022),Told et al. (2022) | PA2200 | Autoclave | 20
+Hips Native 60x Fracture.png,70.2,60,train,HIPS,Untreated,0,Fracture,Shore D (durometer),1.86,Told et al. (2022),Told et al. (2022) | HIPS | Untreated | 0
+Hips H2O2 10cycle 60x Fractur.png,71.6,60,train,HIPS,H2O2,10,Fracture,Shore D (durometer),0.32,Told et al. (2022),Told et al. (2022) | HIPS | H2O2 | 10
+Hips Ethanol 20cycles 60x Fracture.png,73.56,60,train,HIPS,70% Ethanol,20,Fracture,Shore D (durometer),2.75,Told et al. (2022),Told et al. (2022) | HIPS | 70% Ethanol | 20
+Hips Native 60x Surface.png,70.2,60,train,HIPS,Untreated,0,Surface,Shore D (durometer),1.86,Told et al. (2022),Told et al. (2022) | HIPS | Untreated | 0
+Hips H2O2 10cycle 60x Surface.png,71.6,60,train,HIPS,H2O2,10,Surface,Shore D (durometer),0.32,Told et al. (2022),Told et al. (2022) | HIPS | H2O2 | 10
+Hips Ethanol 20cycles 60x Surface.png,73.56,60,train,HIPS,70% Ethanol,20,Surface,Shore D (durometer),2.75,Told et al. (2022),Told et al. (2022) | HIPS | 70% Ethanol | 20
+Dental SumaTabD4 20cycles 500x Fracture.png,80.26,500,train,Dental,Suma Tab D4,20,Fracture,Shore D (durometer),0.3435,Told et al. (2022),Told et al. (2022) | Dental | Suma Tab D4 | 20
+Dental Native 500x Fracture.png,79.8,500,train,Dental,Untreated,0,Fracture,Shore D (durometer),0.23,Told et al. (2022),Told et al. (2022) | Dental | Untreated | 0
+Dental H2O2 20cycyles 500x Fracture.png,79.7,500,train,Dental,H2O2,20,Fracture,Shore D (durometer),0.7969,Told et al. (2022),Told et al. (2022) | Dental | H2O2 | 20
+Dental Ethanol 20cycyles 500x Fracture.png,80.76,500,train,Dental,70% Ethanol,20,Fracture,Shore D (durometer),0.9476,Told et al. (2022),Told et al. (2022) | Dental | 70% Ethanol | 20
+Dental DryHeat 20cycles 500x Fracture.png,80.24,500,train,Dental,Dry heat,20,Fracture,Shore D (durometer),0.4669,Told et al. (2022),Told et al. (2022) | Dental | Dry heat | 20
+Dental Autoclave 20cycles 500x Fracture.png,80.04,500,train,Dental,Autoclave,20,Fracture,Shore D (durometer),0.5459,Told et al. (2022),Told et al. (2022) | Dental | Autoclave | 20
+White SumaTabD4 20cycles 500x Fracture.png,76.54,500,train,White resin,Suma Tab D4,20,Fracture,Shore D (durometer),0.695,Told et al. (2022),Told et al. (2022) | White resin | Suma Tab D4 | 20
+White Native 500x Fracture.png,77.2,500,train,White resin,Untreated,0,Fracture,Shore D (durometer),3.29,Told et al. (2022),Told et al. (2022) | White resin | Untreated | 0
+White H2O2 20cycles 500x Fracture.png,78.26,500,train,White resin,H2O2,20,Fracture,Shore D (durometer),0.3507,Told et al. (2022),Told et al. (2022) | White resin | H2O2 | 20
+White Ethanol 20cycles 500x Fracture.png,76.76,500,train,White resin,70% Ethanol,20,Fracture,Shore D (durometer),0.5505,Told et al. (2022),Told et al. (2022) | White resin | 70% Ethanol | 20
+White DryHeat 20cycles 500x Fracture.png,78.94,500,train,White resin,Dry heat,20,Fracture,Shore D (durometer),0.882,Told et al. (2022),Told et al. (2022) | White resin | Dry heat | 20
+White Autoclave 20cycles 500x Fracture.png,78.46,500,train,White resin,Autoclave,20,Fracture,Shore D (durometer),0.2408,Told et al. (2022),Told et al. (2022) | White resin | Autoclave | 20
+PETG SumaTabD4 10cycles 500x Fracture.png,67.32,500,train,PETG,Suma Tab D4,10,Fracture,Shore D (durometer),1.09,Told et al. (2022),Told et al. (2022) | PETG | Suma Tab D4 | 10
+PETG H2O2 10cycles 500x Fracture.png,68.08,500,train,PETG,H2O2,10,Fracture,Shore D (durometer),0.92,Told et al. (2022),Told et al. (2022) | PETG | H2O2 | 10
+PETG Ethanol 20cycles 500x Fracture.png,68.48,500,train,PETG,70% Ethanol,20,Fracture,Shore D (durometer),0.82,Told et al. (2022),Told et al. (2022) | PETG | 70% Ethanol | 20
+PA2200 Native 500x Fracture.png,74.6,500,train,PA2200,Untreated,0,Fracture,Shore D (durometer),1.39,Told et al. (2022),Told et al. (2022) | PA2200 | Untreated | 0
+PA2200 Native 500x 2 Fracture.png,74.6,500,train,PA2200,Untreated,0,Fracture,Shore D (durometer),1.39,Told et al. (2022),Told et al. (2022) | PA2200 | Untreated | 0
+PA2200 H2O2 20cycles 500x Fracture.png,74.6,500,train,PA2200,H2O2,20,Fracture,Shore D (durometer),0.51,Told et al. (2022),Told et al. (2022) | PA2200 | H2O2 | 20
+PA2200 Ethanol 20cycles 500x Fracture.png,74.6,500,train,PA2200,70% Ethanol,20,Fracture,Shore D (durometer),0.53,Told et al. (2022),Told et al. (2022) | PA2200 | 70% Ethanol | 20
+PA2200 DryHeat 20cycles 500x Fracture.png,74.7,500,train,PA2200,Dry heat,20,Fracture,Shore D (durometer),0.77,Told et al. (2022),Told et al. (2022) | PA2200 | Dry heat | 20
+PA2200 Autoclave 20cycles 500x Fracture.png,75.2,500,train,PA2200,Autoclave,20,Fracture,Shore D (durometer),0.18,Told et al. (2022),Told et al. (2022) | PA2200 | Autoclave | 20
+esd_pla_250x.jpg,69.54,250,test,ESD-PLA (polylactic acid + carbon black),Unspecified,0,,Shore D (durometer),1.14,Paari-Molnar et al. (2024),Paari-Molnar et al. (2024) | ESD-PLA (polylactic acid + carbon black) | Unspecified | 0
+esd_abs_250x.jpg,70.02,250,test,"ESD-ABS (acrylonitrile butadiene styrene + carbon nanotubes, inferred)",Unspecified,0,,Shore D (durometer),0.89,Paari-Molnar et al. (2024),"Paari-Molnar et al. (2024) | ESD-ABS (acrylonitrile butadiene styrene + carbon nanotubes, inferred) | Unspecified | 0"
+esd_tpu_250x.jpg,35.26,250,test,ESD-TPU (thermoplastic polyurethane + carbon black),Unspecified,0,,Shore D (durometer),1.87,Paari-Molnar et al. (2024),Paari-Molnar et al. (2024) | ESD-TPU (thermoplastic polyurethane + carbon black) | Unspecified | 0
+esd_onyx_250x.jpg,74.86,250,test,ESD-Onyx (polyamide + chopped carbon microfibers),Unspecified,0,,Shore D (durometer),0.38,Paari-Molnar et al. (2024),Paari-Molnar et al. (2024) | ESD-Onyx (polyamide + chopped carbon microfibers) | Unspecified | 0
+esd_pla_1000x.jpg,69.54,1000,test,ESD-PLA (polylactic acid + carbon black),Unspecified,0,,Shore D (durometer),1.14,Paari-Molnar et al. (2024),Paari-Molnar et al. (2024) | ESD-PLA (polylactic acid + carbon black) | Unspecified | 0
+esd_abs_1000x.jpg,70.02,1000,test,"ESD-ABS (acrylonitrile butadiene styrene + carbon nanotubes, inferred)",Unspecified,0,,Shore D (durometer),0.89,Paari-Molnar et al. (2024),"Paari-Molnar et al. (2024) | ESD-ABS (acrylonitrile butadiene styrene + carbon nanotubes, inferred) | Unspecified | 0"
+esd_tpu_1000x.jpg,35.26,1000,test,ESD-TPU (thermoplastic polyurethane + carbon black),Unspecified,0,,Shore D (durometer),1.87,Paari-Molnar et al. (2024),Paari-Molnar et al. (2024) | ESD-TPU (thermoplastic polyurethane + carbon black) | Unspecified | 0
+esd_onyx_1000x.jpg,74.86,1000,test,ESD-Onyx (polyamide + chopped carbon microfibers),Unspecified,0,,Shore D (durometer),0.38,Paari-Molnar et al. (2024),Paari-Molnar et al. (2024) | ESD-Onyx (polyamide + chopped carbon microfibers) | Unspecified | 0

@@ -1,0 +1,8 @@
+{
+  "source_filename": "MASC_520_Final_Project.ipynb",
+  "source_sha256": "d07e1253c4d553cb41c75d96f3888fce376cfba05e129cbc8b172bdfce5e7874",
+  "cell_index_zero_based": 10,
+  "output_index_zero_based": 4,
+  "saved_prediction_decimals": 3,
+  "scope": "Original Ridge, random-forest and CNN saved predictions. Distinct from new controlled baseline predictions."
+}
